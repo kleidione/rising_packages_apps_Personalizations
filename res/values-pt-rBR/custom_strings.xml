@@ -15,22 +15,246 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Category Title text for back gesture edge lock. [CHAR LIMIT=60] -->
+    <string name="gesture_navigation_settings_category_title">Configurações de navegação de Gestos</string>
+    <!-- Title text for immersive ui lock. [CHAR LIMIT=60] -->
+    <string name="lock_immersive_system_ui_title">Bloqueio de IU imersivo</string>
+    <!-- Summary text for immersive ui lock. [CHAR LIMIT=NONE] -->
+    <string name="lock_immersive_system_ui_summary">Desabilite a barra de status translúcida e a barra de navegação no modo imersivo.</string>
+    <!-- Title text for back gesture edge lock. [CHAR LIMIT=60] -->
+    <string name="lock_edge_back_gesture_title">Bloqueio da Borda do Gesto Voltar</string>
+    <!-- Summary text for sback gesture edge lock. [CHAR LIMIT=NONE] -->
+    <string name="lock_edge_back_gesture_summary">Desabilite deslizar para a esquerda/direita no modo de navegação por gestos.</string>
+
+    <!-- Compact Headsup -->
+    <string name="notification_heads_up_compact_title">Notificações compactas pop-up</string>
+    <string name="notification_heads_up_compact_summary">Mostrar breves notificações pop-up</string>
+
+    <!-- AI Assistant -->
+    <string name="ai_assistant_title">Assistente de IA (Risa™)</string>
+    <string name="ai_assistant_summary">Configurar as definições do assistente de IA</string>
+    <string name="ai_assistant_gesture_title">Assistente de IA com tecnologia Gemini™</string>
+    <string name="ai_assistant_gesture_summary">Ative a Assistente de IA para executar uma variedade de tarefas deslizando para baixo com dois dedos. (Requer conexão com a Internet)</string>
+    <string name="ai_assistant_gemini_key_title">Chave API Gemini do Assistente de IA</string>
+    <string name="ai_assistant_gemini_key_summary">Insira a chave API para o Assistente de IA a ser usado ao interagir com o Gemini</string>
+    <string name="ai_assistant_gemini_key_dialog_title">Definir chave de API do Assistente de IA</string>
+    <string name="wiki_link_assistant_title">Guia do usuário do assistente de IA</string>
+    <string name="wiki_link_assistant_summary">Saiba mais sobre Risa e como usar vários comandos para realizar tarefas específicas.</string>
+
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Modo de suspensão</string>
+    <string name="sleep_mode_summary_on">Ligado / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Desligado / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Modo de chamada</string>
+    <string name="sleep_mode_ringer_off_title">Não mude</string>
+    <string name="sleep_mode_ringer_vibrate_title">Vibrar</string>
+    <string name="sleep_mode_ringer_dnd_title">Não perturbe</string>
+    <string name="sleep_mode_ringer_silent_title">Silencioso</string>
+    <string name="sleep_mode_schedule_sunset">Pôr do sol</string>
+    <string name="sleep_mode_schedule_sunrise">Nascer do sol</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Ligar do pôr do sol até um horário personalizado</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Ligar de um horário personalizado até o nascer do sol</string>
+    <string name="sleep_mode_toggles_title">Alternadores</string>
+    <string name="sleep_mode_wifi_toggle_title">Desligar o Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Desativar o Wi-Fi quando o modo de suspensão estiver ativado</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Desligar o Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Desativar o Bluetooth quando o modo de suspensão estiver ativado</string>
+    <string name="sleep_mode_cellular_toggle_title">Desligar dados móveis</string>
+    <string name="sleep_mode_cellular_toggle_summary">Desabilitar dados móveis quando o modo de suspensão estiver ativado</string>
+    <string name="sleep_mode_location_toggle_title">Desligar a localização</string>
+    <string name="sleep_mode_location_toggle_summary">Desativar localização quando o modo de suspensão estiver ativado</string>
+    <string name="sleep_mode_sensors_toggle_title">Desligar sensores</string>
+    <string name="sleep_mode_sensors_toggle_summary">Desativar sensores quando o modo de suspensão estiver ativado</string>
+    <string name="sleep_mode_display_text">O modo de suspensão permite que você desative determinados serviços para ajudar a economizar bateria e silenciar seu telefone enquanto você dorme.</string>
+    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_manual">Ligar agora</string>
+    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_manual">Desligar agora</string>
+    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_twilight">Ligar até o amanhecer</string>
+    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_twilight">Desligar até o pôr do sol</string>
+    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_custom">Ligar até <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
+    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_custom">Desligar até <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
+
+    <!-- Max cached processes -->
+    <string name="max_cached_processes_title">Máximo de processos em cache</string>
+
+        <!-- Dashboard Greetings Messages -->
+    <string name="dashboard_morning1">Comece seu dia positivamente!</string>
+    <string name="dashboard_morning2">O sol nasceu!</string>
+    <string name="dashboard_morning3">Uma bela manhã..</string>
+    <string name="dashboard_morning4">Mais um dia de vida.</string>
+    <string name="dashboard_morning5">Um novo dia..</string>
+    <string name="dashboard_morning_greeting1">Bom dia %s!</string>
+    <string name="dashboard_morning_greeting2">Bom dia %s!</string>
+    <string name="dashboard_noon1">Viva sua vida.</string>
+    <string name="dashboard_noon2">Aproveite o sol.</string>
+    <string name="dashboard_noon3">Bem-vindo ao lar,\n%s.</string>
+    <string name="dashboard_noon4">Aproveite o dia!</string>
+    <string name="dashboard_noon5">Bem-vindo de volta,\n%s.</string>
+    <string name="dashboard_noon_greeting1">Boa tarde,\n%s</string>
+    <string name="dashboard_early_night1">A noite está chegando.</string>
+    <string name="dashboard_early_night2">Hora do jantar!</string>
+    <string name="dashboard_early_night_greeting1">Boa noite,\n%s</string>
+    <string name="dashboard_night3">Bons sonhos!</string>
+    <string name="dashboard_night4">Hora de dormir agora.</string>
+    <string name="dashboard_night5">Dorme bem!</string>
+    <string name="dashboard_night_greetings1">Boa noite,\n%s</string>
+    <string name="dashboard_midnight1">Aproveite o silêncio..</string>
+    <string name="dashboard_midnight2">Você precisa de ajuda.</string>
+    <string name="dashboard_midnight3">Durma um pouco.</string>
+    <string name="dashboard_midnight4">Descanse.</string>
+    <string name="dashboard_midnight5">Dormindo até tarde?</string>
+    <string name="dashboard_random1">Ei %s!</string>
+    <string name="dashboard_random2">Olá %s!</string>
+    <string name="dashboard_random3">Oi %s!</string>
+    <string name="dashboard_random4">Bom dia %s!</string>
+    <string name="dashboard_random5">Como vai %s!</string>
+    <string name="dashboard_random6">E aí %s?</string>
+    <string name="dashboard_random_greetings1">Tente encontrar alguns ovos de páscoa!</string>
+    <string name="dashboard_random_greetings2">Subindo do fundo?</string>
+    <string name="dashboard_random_greetings3">Tente usar a barra de pesquisa!</string>
+    <string name="dashboard_random_greetings4">Aproveite seu dia!</string>
+    <string name="settings_random1">Procurando por algo?</string>
+    <string name="settings_random2">Encontre e você verá</string>
+    <string name="settings_random3">Procure e você encontrará</string>
+    <string name="settings_random4">Quem encontra fica com ele</string>
+    <string name="settings_random5">Configurações de pesquisa</string>
+    <string name="settings_random6">Você não pode encontrar algo que não existe!</string>
+
+    <!-- User Card -->
+    <string name="user_card_title">Usuário</string>
+    <string name="user_card_summary">Gerenciar configurações do usuário</string>
+
+    <!-- QS fling animation -->
+    <string name="fling_animation_duration_title">Duração da animação do lançamento do QS</string>
+
+    <!-- Cache cleaner -->
+    <string name="cache_cleaner_title">Limpador de cache</string>
+    <string name="cache_cleaner_summary">Habilite o serviço de limpeza de cache para limpar automaticamente os caches dos aplicativos.</string>
+
+    <!-- Extras -->
+    <string name="extras_toolbox_title">Extras</string>
+    <string name="extras_toolbox_summary">Recursos extras da caixa de ferramentas</string>
+
+    <!-- Smart Power Off -->
+    <string name="smart_power_off_desc">Tempo de desligamento definido para: </string>
+    <string name="smart_power_off_title">Desligamento inteligente</string>
+    <string name="smart_power_off_summary">Desliga o dispositivo automaticamente em um horário especificado.</string>
+    <string name="smart_power_off_time_title">Definir hora de desligamento</string>
+    <string name="smart_power_off_time_summary">Selecione o tempo para desligamento automático.</string>
+    <string name="smart_power_off_footer_text">
+        O recurso Smart Power Off desliga automaticamente o dispositivo em um horário programado.\n\nEle inclui um mecanismo de atraso inteligente: se a entrada do usuário for detectada, o desligamento será adiado por um minuto, continuando esse ciclo até que não haja mais interação.
+    </string>
+
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">5G inteligente</string>
+    <string name="smart_5g_summary">Alterne automaticamente entre 5G e 4G para reduzir o consumo da bateria</string>
+
+    <!-- BootAnimation Styles -->
+    <string name="boot_animation_styles_title">Estilos de animação de inicialização</string>
+    <string name="boot_animation_applied">Animação de inicialização aplicada</string>
+
+    <!-- Play Integrit Fix JSON Update -->
+    <string name="toast_spoofing_success">Pif.json baixado com sucesso. Mascaramento como %1$s para integridade do sistema.</string>
+    <string name="toast_spoofing_failure">Falha ao mascarar propriedades.</string>
+    <string name="update_pif_json_title">Atualizar correção de integridade do sistema</string>
+    <string name="update_pif_json_summary">Atualizar dispositivo de mascaramento de PIF, requer conexão com a internet.</string>
+    <string name="show_pif_properties_title">Propriedades da integridade do sistema</string>
+    <string name="show_pif_properties_summary">Mostrar todas as propriedades PIF definidas atualmente</string>
+    <string name="error_loading_properties">Erro ao carregar propriedades PIF</string>
+
+    <!-- Power Mode tile -->
+    <string name="power_mode_tile_label">Modo de energia</string>
+    <string name="power_mode_default">Padrão</string>
+    <string name="power_mode_conservative">Conservador</string>
+    <string name="power_mode_powersave">Economia de energiae</string>
+    <string name="power_mode_performance">Desempenho</string>
+    <string name="power_mode_gameboost">Impulsionar jogos</string>
+    <string name="power_mode_unknown">Desconhecido</string>
+
+    <!-- RAM Boost -->
+    <string name="ramboost_title">Aumento de RAM</string>
+    <string name="ramboost_summary">Priorize a utilização de memória compactada (ZRAM) e espaço de swap (se disponível) para melhorar o desempenho geral.</string>
+
+    <!-- Black themes for dark mode -->
+    <string name="black_theme_style_title">Estilos de tema preto</string>
+    <string name="black_theme_style_berry">Berry black</string>
+    <string name="black_theme_style_amoled">Preto puto (Amoled)</string>
+
+    <!-- Spoofing redirect to wiki -->
+    <string name="help_section_title">Ajuda e Suporte</string>
+    <string name="help_footer_title">Guias de mascaramento</string>
+    <string name="help_footer_summary">Visite nosso wiki para obter guias detalhados e suporte.</string>
+
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Ocultar status do desenvolvedor</string>
+    <string name="hide_developer_status_summary">Ocultar status de desenvolvedor de aplicativos</string>
+    <string name="search">Pesquisar</string>
+    <string name="search_apps">Pesquisar aplicativos</string>
+
+    <!-- Hide screen capture status -->
+    <string name="hide_screen_capture_status_title">Ocultar status de captura de tela</string>
+    <string name="hide_screen_capture_status_summary">Oculte o status de captura de tela e gravação de tela de todos os aplicativos.</string>
+
+    <!-- No storage restrict -->
+    <string name="no_storage_restrict_title">Sem restrição de armazenamento</string>
+    <string name="no_storage_restrict_summary">Remova a restrição ao selecionar pastas por meio do Storage Access Framework.</string>
+
+    <!-- Power Modes -->
+    <string name="device_power_mode">Modo de economia</string>
+
+    <!-- Per-app spoofing -->
+    <string name="gameprops_title">Habilitar mascaramento por aplicativo</string>
+    <string name="gameprops_summary">Habilita opções de falsificação por aplicativo dentro do PixelProps</string>
+    <string name="gameprops_load_json_title">Selecione o arquivo JSON de adereços por aplicativo</string>
+    <string name="gameprops_load_json_summary">Escolha o arquivo JSON por aplicativo a ser usado para o mascaramento.</string>
+
+    <!-- PIF spoofing -->
+    <string name="pif_spoofing_title">Selecione o arquivo PIF JSON</string>
+    <string name="pif_spoofing_summary">Selecione o arquivo PIF JSON a ser usado para mascarar a integridade do sistema</string>
+
+    <!-- AOD custom image -->
+    <string name="lockscreen_custom_image_enabled_title">Habilitar imagem AOD da tela de bloqueio</string>
+    <string name="lockscreen_custom_image_title">Imagem AOD da tela de bloqueio</string>
+    <string name="lockscreen_custom_image_summary">Definir imagem AOD de tela de bloqueio personalizada</string>
+    <string name="lockscreen_custom_image_pick_summary">Selecione a imagem AOD da galeria</string>
+    <string name="custom_aod_image_not_supported">Estilo de relógio não suportado</string>
+
     <!-- App Title -->
-    <string name="rising_settings_title">Configurações risingOS</string>
-    <string name="rising_settings_summary">O melhor está aqui</string>
+    <string name="personalize_highlight_settings_title">Personalize seu dispositivo</string>
+    <string name="network_highlight_settings_summary">Configurar a rede e conexão de internet</string>
+    <string name="bt_highlight_settings_title">Configurar dispositivos conectados</string>
+    <string name="bt_highlight_settings_summary">Adicionar, parear bluetooth e configurar conexões de dispositivos</string>
+    <string name="rising_settings_title">Personalizar</string>
+    <string name="rising_settings_summary">Alterar ícones, temas e muito mais</string>
     <string name="reset_settings_title">Redefinir configurações</string>
-    <string name="reset_settings_message">Isso vai redefinir as alterações feitas nas configurações risingOS. Gostaria de continuar?</string>
+    <string name="reset_settings_message">Isso redefinirá a maioria das configurações crescentes para seus valores padrão para o usuário atual. Você gostaria de continuar?</string>
+    <string name="search_homepage">Pesquisar</string>
     <!-- Personalization Categories -->
     <string name="button_title">Botões</string>
-    <string name="lockscreen_title">Tela de Bloqueio</string>
+    <string name="lockscreen_title">Tela de bloqueio</string>
     <string name="misc_title">Diversos</string>
     <string name="navigation_title">Navegação</string>
     <string name="notifications_title">Notificações</string>
-    <string name="quicksettings_title">Configurações Rápidas</string>
-    <string name="sound_title">Som</string>
-    <string name="statusbar_title">Barra de Status</string>
+    <string name="quicksettings_title">Configurações rápidas</string>
+    <string name="sound_title">Sons</string>
+    <string name="statusbar_title">Barra de status</string>
     <string name="display_title">Tela</string>
-    <string name="ui_title">Interface do Usuário</string>
+    <string name="ui_title">Interface de usuário</string>
+    <string name="toolbox_title">Caixa de ferramentas</string>
+    <string name="toolbox_summary">Características do sistema</string>
+    <string name="themes_title">Temas</string>
+    <string name="themes_summary">Mostre suas verdadeiras cores</string>
+    <string name="spoofing_title">Mascaramento</string>
+    <string name="spoofing_title_summary">Mascare como um dispositivo diferente para desbloquear recursos do aplicativo</string>
+    <string name="security_title">Segurança</string>
+    <string name="security_summary">Configurar recursos relacionados à privacidade e segurança</string>
+    <string name="security_settings_footer_text">Observação: embora ignorar certas restrições possa ser prático, isso também pode resultar em potenciais riscos à privacidade.</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Seletor de cores</string>
     <string name="press_color_to_apply">Selecione a cor abaixo para aplicar</string>
